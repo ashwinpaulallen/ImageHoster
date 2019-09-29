@@ -23,7 +23,7 @@ import java.util.*;
 @Controller
 public class ImageController {
 
-    String error = "Only the owner of the image can edit the image";
+
     @Autowired
     private ImageService imageService;
 
@@ -96,6 +96,7 @@ public class ImageController {
     //This string is then displayed by 'edit.html' file as previous tags of an image
     @RequestMapping(value = "/editImage")
     public String editImage(@RequestParam("imageId") Integer imageId, Model model, HttpSession session, RedirectAttributes redirectAttrs) {
+        String error = "Only the owner of the image can edit the image";
         Image image = imageService.getImage(imageId);
         User owner = image.getUser();
         User user = (User) session.getAttribute("loggeduser");
@@ -152,8 +153,18 @@ public class ImageController {
     //Looks for a controller method with request mapping of type '/images'
     @RequestMapping(value = "/deleteImage", method = RequestMethod.DELETE)
     public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId, Model model, HttpSession session, RedirectAttributes redirectAttrs) {
-        imageService.deleteImage(imageId);
-        return "redirect:/images";
+        String error = "Only the owner of the image can delete the image";
+        User user = (User) session.getAttribute("loggeduser");
+        Image image = imageService.getImage(imageId);
+        User owner = image.getUser();
+        if (owner.getId() == user.getId()) {
+            imageService.deleteImage(imageId);
+            return "redirect:/images";
+        } else {
+            model.addAttribute("deleteError", error);
+            redirectAttrs.addAttribute("deleteError", error).addFlashAttribute("deleteError", error);
+            return "redirect:/images/" + image.getId()+ '/' + image.getTitle();
+        }
     }
 
 

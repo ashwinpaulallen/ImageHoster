@@ -2,69 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/TagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/TagService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/tachyons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/ImageHosterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/config/JpaConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Tag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/UserProfile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/TagRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/TagService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/tachyons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/ImageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/ImageControllerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -137,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="137">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+            <state relative-caret-position="86">
+              <caret line="161" column="38" lean-forward="true" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2758#2759#0" expanded="true" />
@@ -227,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/images.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/images/image.html" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" />
       </list>
     </option>
   </component>
@@ -239,7 +181,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="660" />
     <option name="width" value="620" />
     <option name="height" value="729" />
@@ -368,27 +310,6 @@
             <path>
               <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -407,7 +328,7 @@
     <property name="SearchEverywhereHistoryKey" value="imagere&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/repository/ImageRepository.java&#10;imagec&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/controller/ImageController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569742758568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569743895310" />
     <property name="last_opened_file_path" value="H:/ImageHoster" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -427,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ImageControllerTest">
+  <component name="RunManager" selected="Spring Boot.ImageHosterApplication">
     <configuration name="ImageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -458,8 +379,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImageControllerTest" />
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +408,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1569668960421" duration="22763000" />
+      <workItem from="1569668960421" duration="24482000" />
     </task>
     <servers />
   </component>
@@ -498,12 +419,19 @@
     <history-entry file="ImageControllerTest - 2019.09.29 at 12h 55m 17s.xml">
       <configuration name="ImageControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ImageControllerTest - 2019.09.29 at 13h 22m 46s.xml">
+      <configuration name="ImageControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImageControllerTest - 2019.09.29 at 13h 23m 42s.xml">
+      <configuration name="ImageControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155512000" />
+    <option name="totallyTimeSpent" value="157231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -511,10 +439,10 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19463088" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3796034" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
@@ -523,7 +451,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.4490085" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.4490085" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.44334278" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -768,24 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -803,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4881">
-          <caret line="312" selection-start-line="312" selection-end-line="312" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -820,10 +724,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="313" column="2" selection-start-line="313" selection-start-column="2" selection-end-line="313" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#11962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+        <state relative-caret-position="86">
+          <caret line="161" column="38" lean-forward="true" selection-start-line="161" selection-start-column="38" selection-end-line="161" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2758#2759#0" expanded="true" />
