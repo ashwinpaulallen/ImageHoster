@@ -1,5 +1,7 @@
 package ImageHoster.model;
 
+import ImageHoster.config.ValidPassword;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +25,7 @@ public class User {
     private String username;
 
     @Column(name = "password")
+    @ValidPassword
     private String password;
 
     //The 'users' table is mapped to 'user_profile' table with One:One mapping
