@@ -101,6 +101,8 @@ public class ImageController {
         Image image = imageService.getImage(imageId);
         User owner = image.getUser();
         User user = (User) session.getAttribute("loggeduser");
+        //compare the owner ID of the image and the current user ID
+        // If both ID match, allow to edit the image.
         if (owner.getId() == user.getId()) {
             String tags = convertTagsToString(image.getTags());
             model.addAttribute("image", image);
@@ -158,6 +160,8 @@ public class ImageController {
         User user = (User) session.getAttribute("loggeduser");
         Image image = imageService.getImage(imageId);
         User owner = image.getUser();
+        //compare the owner ID of the image and the current user ID
+        // If both ID match, allow to delete the image.
         if (owner.getId() == user.getId()) {
             imageService.deleteImage(imageId);
             return "redirect:/images";
